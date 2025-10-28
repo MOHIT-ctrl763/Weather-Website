@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img class="img" src="" alt="">
+  <div class="weather-app">
+    <h1>Weather App</h1>
+
+    <div class="search-box">
+      <input type="text" placeholder="Enter city name">
+      <button class="Search">Search</button>
+    </div>
+
+    <div class="weather-card">
+      <h2 id="City">City-Name</h2>
+      <p class="temp">X°C</p>
+      <p class="condition">Sunny</p>
+
+      <div class="details">
+        <div class="info">
+          <img src="https://cdn-icons-png.flaticon.com/512/727/727790.png" alt="humidity">
+          <p>Humidity</p>
+          <h4 id="humidity">X%</h4>
+        </div>
+        <div class="info">
+          <img src="https://cdn-icons-png.flaticon.com/512/553/553416.png" alt="wind">
+          <p>Wind</p>
+          <h4 id="wind">X km/h</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
