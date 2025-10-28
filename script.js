@@ -22,7 +22,10 @@ Search.addEventListener("click",()=>{
         Windspeed.innerText = Math.ceil(data.wind.speed) + "km/h"
         condition.innerText = data.weather[0].description 
         let icon = data.weather[0].icon
-        img.src = `https:openweathermap.org/img/wn/${icon}@2x.png`
+        img.src = `https://openweathermap.org/img/wn/${icon}@2x.png`
+
+        
+
 
     })
     input.value = ""
